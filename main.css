@@ -1,7 +1,7 @@
-body {
+/* body {
 	background-color: #deb3e7;
 	font-family: 'Oxygen', sans-serif;
-}
+} */
 
 #game {
 	width: 8.75em;
@@ -9,7 +9,10 @@ body {
 	font-size: 4em;
 	font-weight: bold;
 	padding-top: 2%;
+    margin-top: 72px;
 }
+
+
 
 #board {
 	width: 100%;
@@ -172,7 +175,7 @@ body {
     border-radius: 7px;
     margin-left: 10px;
     text-align: center;
-    width: 70px;
+    width: 90px;
     height: 60px;
     border-radius: 3px;
     font-weight: bold;
@@ -185,6 +188,24 @@ body {
   
   .score-title {
     font-size: 16px;
+  }
+
+  #freeGame {
+    display: inline-block;
+    background: #011411;
+    border-radius: 7px;
+    margin-left: 35%;
+    padding: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 43px;
+    line-height: 39px;
+    
+    cursor: pointer;
+    /* display: block; */
+    text-align: center;
+    flex-shrink: 0;
   }
 
   .restart-button {
